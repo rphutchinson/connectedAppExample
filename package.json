@@ -1,0 +1,25 @@
+{
+  "name": "connectedappdemo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "proof of concept/playground for Salesforce connected app",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "NODE_ENV=development node --experimental-specifier-resolution=node src/index.js "
+  },
+  "author": "rphutchinson@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "find-config": "^1.0.0",
+    "https-proxy-agent": "^5.0.1",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.3"
+  }
+}
